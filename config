@@ -178,8 +178,8 @@ bindsym $mod+r mode "resize"
 
 bindsym $mod+space exec rofi -show drun -eh 2 -padding 16
 bindsym $mod2+e exec nautilus
-bindsym $mod+o exec ~/Scripts/autoxrandr laptop
-bindsym $mod+p exec ~/Scripts/autoxrandr toggle
+bindsym $mod+o exec ~/scripts/autoxrandr laptop
+bindsym $mod+p exec ~/scripts/autoxrandr toggle
 
 # bindsym $mod+Shift+Up exec "amixer -q sset Master,0 1+ unmute"
 # bindsym $mod+Shift+Down exec "amixer -q sset Master,0 1- unmute"
@@ -187,7 +187,7 @@ bindsym $mod+p exec ~/Scripts/autoxrandr toggle
 
 focus_follows_mouse no
 
-exec-always --no-startup-id ~/Scripts/autoxrandr auto
+exec-always --no-startup-id ~/scripts/autoxrandr auto
 exec-always --no-startup-id feh --bg-tile /home/hannes/Downloads/wallpapers/hash2.png
 exec-always --no-startup-id xmodmap -e "keycode 66 = ISO_Level3_Shift"
 
